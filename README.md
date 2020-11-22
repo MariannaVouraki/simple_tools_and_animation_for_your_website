@@ -15,3 +15,7 @@ and the files are not connected, except the paths fron the HTML files to the CSS
 5.Text animation
 
 6.Contact form
+
+7.stars background
+
+8.Background trasition
