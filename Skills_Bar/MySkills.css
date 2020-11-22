@@ -1,0 +1,105 @@
+
+/* My srvices section*/
+*{
+  background-color: rgb(1, 0, 51);
+}
+.skills {
+    height: 100%;
+    width: 500px;
+    margin: 60px  auto;
+    color: white;
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+    
+  }
+.skills li{
+    margin:20px 0;
+  }
+.bar{
+  background: #353b48;
+  display: block;
+  height: 3px;
+  border: 1px solid rbga(0,0,0,0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #2187e7b3;
+}  
+.bar span{
+  height: 3px;
+  float: left;
+  background: #04549e;
+}
+.html{
+  width: 90%;
+  animation: html 2s;
+}
+.css{
+  width: 90%;
+  animation: css 2s;
+}
+.js{
+  width: 70%;
+  animation: js 2s;
+}
+.django{
+  width: 90%;
+  animation: django 2s;
+}
+.react{
+  width: 50%;
+  animation: react 2s;
+}
+.python{
+  width:70%;
+  animation: python 2s;
+}
+
+@keyframes html{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:90%
+  }
+}
+@keyframes css{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:90%
+  }
+}
+@keyframes js{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:70%
+  }
+}
+@keyframes django{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:65%
+  }
+}
+@keyframes  python{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:45%
+  }
+}
+@keyframes react{
+  0%{
+    width:0%;
+  }
+  100%{
+    width:45%
+  }
+}
